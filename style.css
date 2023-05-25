@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    font-family: 'sofia-pro', sans-serif;
+    text-decoration: none;
+}
+.index_header{
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/slider.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-hakkimizda{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/hakkımızda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+.header-kariyer{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/kariyer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+.hizmet-noktalarimiz .ist{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/kariyer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+.hizmet-noktalarimiz .tekno{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/teknopark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+.header-noktalarimiz{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/noktalarimiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+.header-iletisim{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/iletisim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.kariyer-crsl{
+    width: 100%; 
+    height: 30vh;
+    overflow: hidden;
+} 
+
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header_blog{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-hizmetlerimiz{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/hizmetlerimiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+
+}
+
+.header_content ul li{
+    padding-left: 2rem;
+}
+.navbar-nav li a{
+    color: white;
+}
+.carousel-caption{
+    position:static;
+}
+.crsl{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 90vh;
+}
+.navbar-collapse .row{
+    justify-content: space-around;
+}
+
+
+
+.crsl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+.row a{
+    color: white;
+    text-decoration: none;
+}
+.row h1{
+    font-size:36px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.arsiv a, span{
+    opacity: 1 !important;
+}
+.crsl .row .crslyazi p{
+    font-family: "abril-text" ;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 400; 
+}
+.search{
+    color: #990033;
+}
+form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    outline: none;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.button button{
+    border: none;
+    transition-duration: 0.3s;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    background-color: white;
+    margin-top: 10px;
+}
+.button button:hover{
+    background-color: #990033;
+    color: white;
+
+}
+img{
+    max-width: 100%;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+.arsiv a, span{
+    opacity: 0.6;
+}
+.arsiv a:hover{
+    color: #990033 !important;
+}
+.col-md-3 .blg li{
+    padding: 5px 0;
+}
+.col-md-3 .blg li:hover{
+    color: #990033 !important;
+    cursor: pointer;
+}
+.card{
+    border:none;
+}
+.card-img, .card-img-top{
+    border-radius: none !important;
+}
+.card-body h6{
+    font-size: 10px;
+    opacity: 0.6;
+}
+.card-body{
+    padding: 15px 0px;
+}
+.ftrinput input{
+    border-radius: inherit !important;
+    border: 1px solid white !important;
+}
+.ftrinput input:focus{
+    background-color: inherit;
+    box-shadow: none;
+   caret-color: white;
+}
+.ftrinput button{
+    border-radius: inherit !important;
+    border: 1px solid white !important;
+}
+h5{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.rowp p{
+    font-size: 15px;
+}
+.rowp a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.rowp i{
+    font-size: 12px;
+}
+.rowp ul li{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+.row .ibslk i{
+    word-spacing:8px;
+
+}
+.aksanblog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.akshanhakinda p{
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 200;
+}
+.akshanhakinda h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    font-weight: 600;
+    color: #990033;
+}
+.akshanhizmet h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    font-weight: 600;
+}
+
+.akshanhizmet h1{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    font-weight: 600;
+}
+.akshanhizmet button{
+    font-size: 14px;
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+}
+.akshanhizmet button:hover{
+    border-radius: inherit !important;
+    opacity: inherit;
+    background-color: white !important;
+    color: black !important;
+}
+.akshanhakinda .row{
+    margin-right: inherit;
+}
+.akshanhizmet .row{
+    margin-right: inherit;
+}
+
+.akshanhizmet{
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/hakkinda.jpg);
+    width: 100%;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sefaf{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+    top: 0;
+    left: 0;  
+}
+
+
+.hkmzdah4{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin: inherit;
+}
+
+.vizyonumuz ul li{
+ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    opacity: 0.7;   
+}
+.vizyonumuz h6{
+    color: #990033;
+   
+}
+.vizyonumuz ul li:first-child{
+    color: #990033;
+    opacity: inherit;
+}
+
+
+.hemenulas{
+    width: 100%;
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20%;
+}
+
+.hemenulas  .row{
+    margin-right:  inherit !important;
+}
+.vizyonumuz  .row{
+    margin-right:  inherit !important;
+}
+
+.herhizmet h4{
+    color: #990033;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.herhizmet  h4 a{
+    color: #990033;
+}
+.herhizmet ul li{
+    margin-top: 1rem;
+    text-align: center;
+}
+.herhizmet .liyapi ul a{
+    color: black;
+}
+.herhizmet .liyapi ul a:hover{
+    color: #990033;
+}
+
+.pp img{
+    border-radius: 50%;
+}
+
+.kariyer-basvuru{
+    background-image: linear-gradient(rgba(2,11,34,0.7), rgba(2, 11, 34, 0.7)), url(img/basvuru.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+ 
+}
+.kryrbtn button:hover{
+    background-color: white;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+.form-control{
+    background-color: #0000;
+}
+.ftrinput input::placeholder{
+    color: white !important;    
+    opacity: 0.6;
+    font-size: 13px;
+    padding: 0;
+}
+.socialmediaicon i{
+    font-size: 22px;
+}
+.socialmediaicon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.iletsm{
+    padding-top: 13rem;
+}
+.aydfooter{
+    
+    justify-content: space-between;
+}
+.aydfooter a{
+    color: white;
+    font-size: 12px;
+}
+.aydfooter h5{
+    font-size: 14px;
+}
+.copyright{
+    font-size: 12px;
+}
+footer{
+    background-color: #020A20;
+    width: 100%;
+}
+
+.rr{
+    padding-left: inherit !important;
+    padding-right: inherit !important;
+}
+
+.row .iletisminput .form-control{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+    border-radius: inherit !important;
+    opacity: 0.6;
+
+}
+.row .iletisminput input:focus{
+    box-shadow: none !important;
+    outline: inherit !important;
+}
+.row .iletisminput .form-select{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+    border-radius: inherit !important;
+    opacity: 0.6;
+
+}
+.row .iletisminput input:focus{
+    box-shadow: none !important;
+    outline: inherit !important;
+}
+
+
+.navbar-toggler-icon{
+    background-image: url(img/menu.svg) !important;
+}
+.navbar-toggler{
+    border: 1px solid white;
+}
+@media screen and (max-width:1200px) {
+    .navbar a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1198px) {
+    .hizmet-noktalarimiz .rr{
+        padding-right: inherit !important;
+    }
+    .hzmtortala{
+        justify-content: center !important;
+    } 
+    .iletisminput p{
+        text-align: center;
+    }
+    .iletisminput .btn2{
+        display: flex;
+        justify-content: center;
+    }
+    .txt-cntr{
+        text-align: center;
+        
+    }
+    .txt-cntr h6{
+        color: gray;
+        
+        
+    }
+}
+@media screen and (max-width:990px) {
+    .header_content{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:766px) {
+    .navbar-pe {
+        padding-right: 8px !important;
+        padding-left: 8px !important;
+    }
+    .row .mdtx{
+        text-align: center;
+    }
+    .crsl{
+        align-items: center;
+    }
+    .crsl p{
+        display: none;
+    }
+    .crsl2{
+        align-items: center;
+    }
+    .crsl2 h1{
+        font-size: 22px;
+    }
+    .crsl2 p{
+        display: none;
+    }
+    .vizyonumuz .pd{
+        padding-right: 1rem !important;
+    }
+    .vizyonumuz .txt{
+        text-align: center;
+    }
+}
+
